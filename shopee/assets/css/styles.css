@@ -1,0 +1,325 @@
+body{
+    background:#f5f5f5
+}
+#wrapper {
+
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+* ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+* li {
+    margin: 0px;
+    padding: 0px;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#wrapper .header {
+/*    border: 1px solid red;*/
+    height: 120px;
+    background: #f53d2d;
+    background: -webkit-gradient(linear,left top,left bottom,from(#f53d2d),to(#f63));
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+
+#wrapper .block{
+    background:white;
+}
+#wrapper .header .inner {
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100%;
+   /* border: 1px solid red;*/
+}
+
+#wrapper .header .inner .line-1 {
+    position: relative;
+    overflow: hidden;
+  /*  border: 1px solid red;*/
+}
+
+#wrapper .header .inner .line-1 > div:first-child {
+    float: left;
+}
+
+#wrapper .header .inner .line-1 > div:first-child li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    border-right: 1px solid #cdcdcd;
+    padding-right: 10px;
+}
+
+#wrapper .header .inner .line-1 > div:first-child li a{
+    color:white;
+    font-size:12px;
+    font-weight: lighter;
+}
+
+#wrapper .header .inner .line-1 > div:first-child li a:hover{
+    color:#cdcdcd;
+}
+
+
+#wrapper .header .inner .line-1 > div:first-child li:last-child {
+    border-width: 0px;
+}
+
+#wrapper .header .inner .line-1 > div:first-child li:first-child {
+    margin-left: 0px;
+}
+
+
+
+#wrapper .header .inner .line-1 > div:last-child {
+    float: right;
+}
+
+#wrapper .header .inner .line-1 > div:last-child li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+#wrapper .header .inner .line-1 > div:last-child li a{
+    color:white;
+    font-size:12px;
+    font-weight: lighter;
+}
+
+#wrapper .header .inner .line-1 > div:last-child li a:hover{
+    color:#cdcdcd;
+}
+
+
+
+#wrapper .header .inner .line-2 {
+    display: flex;
+    position: relative;
+    align-content: space-between;
+    margin-top: 10px;
+}
+
+#wrapper .header .inner .line-2 .brand {
+    width: 20%;
+}
+
+#wrapper .header .inner .input-search-wrapper {
+    width: 70%;
+    position: relative;
+    margin-top: 20px;
+}
+
+#wrapper .header .inner .input-search-wrapper .input-search input[type="text"] {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#wrapper .header .inner .input-search-wrapper .input-search button {
+    position: absolute;
+    right: -16px;
+    top: 6px;
+    width: 50px;
+    background: #fb5533;
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#wrapper .header .inner .cart {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 20px;
+}
+
+#wrapper .header .inner .cart .inner-cart {
+    position: relative;
+}
+
+#wrapper .header .inner .cart .inner-cart > span.material-icons {
+    font-size: 40px;
+}
+
+
+#wrapper .header .inner .cart .badge {
+    position: absolute;
+    top: -4px;
+    right: -27px;
+    background: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper .header .inner .cart .badge a {
+    color: #fb5533;
+}
+
+#wrapper .main-content{
+    margin-left:150px;
+    margin-right: 150px;
+}
+#wrapper .main-content .block{
+    position:relative;
+    margin-top:10px;
+}
+
+#wrapper .main-content .top{
+    height: 250px;
+/*    border:1px solid red;*/
+}
+#wrapper .main-content .top .banner{
+    height: 100%;
+}
+
+#wrapper .main-content .top .banner .main-slide{
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background: url('https://cf.shopee.vn/file/1624bfc0b474e9917fa725b7ea0e0e15_xhdpi');
+    float:left;
+}
+
+
+#wrapper .main-content .top .banner div:last-child {
+    width: 39%;
+    height: 100%;
+    float:right;
+}
+
+#wrapper .main-content .top .banner div:last-child >div{
+    width: 100%;
+    height: 47%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background: url('https://cf.shopee.vn/file/1624bfc0b474e9917fa725b7ea0e0e15_xhdpi');
+}
+
+
+#wrapper .main-content .top .banner div:last-child >div:last-child{
+    margin-top:3%;
+}
+
+#wrapper .main-content .hot-topic{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#wrapper .main-content .hot-topic >div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper .main-content .hot-topic div > div:first-child{
+    width:50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#wrapper .main-content .hot-topic div > div:last-child{
+    font-size:12px;
+    font-weight: lighter;
+}
+
+#wrapper .section-title{
+   font-weight: 500;
+    color:rgba(0,0,0,.54);
+    font-size:1rem;
+    text-transform: uppercase;
+    padding:20px;
+    padding-bottom:0px;
+}
+
+#wrapper .category >div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper .category > div > div > div:first-child{
+   width:80px;
+    height: 80px;
+}
+
+#wrapper .category .line-1 > div{
+    border-top:1px solid rgb(241 241 241);
+}
+
+#wrapper .category > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    border-left:1px solid rgb(241 241 241);
+    cursor: pointer;
+    border-bottom:1px solid rgb(241 241 241);
+}
+
+
+#wrapper .category > div > div >div:last-child{
+    font-size:14px;
+    color:#1f1f1f;
+}
+
+#wrapper .flash-sale >div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper .flash-sale >div .product-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#wrapper .flash-sale >div .product-item .price{
+    font-weight: bold;
+    font-size: 20px;
+    color: #f53d2d;
+    margin-top:-30px;
+}
+
+#wrapper .flash-sale >div .product-item .progress-bar{
+    position: relative;
+    border-radius: 10px;
+    height: 10px;
+    width:60%;
+    background: #da4b3e7d;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+#wrapper .flash-sale >div .product-item .inner-progress{
+
+    height: 100%;
+    background: #f53d2d;
+}
